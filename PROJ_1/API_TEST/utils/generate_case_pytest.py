@@ -24,9 +24,6 @@ if __name__ == '__main__':
 def generate_py_case(py_test_file, case_list):
     """
     根据用例配置列表，生成pytest用例文件
-    :param py_test_file:
-    :param case_list:
-    :return:
     """
     print("生成pytest用例文件")
     file_prex = os.path.splitext(py_test_file)[-1]  # 后缀
